@@ -6,6 +6,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken')
 var fetchuser=require('../middleware/getuser')
 
+//checking git commit via vsCode
+
 //ROUTE1: create a USER using: POST "/api/auth/". Doesn't require auth
 const JWT_SECRET="KeepItRolling";
 router.post('/createuser',[
